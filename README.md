@@ -23,25 +23,25 @@ node index.js
 ### Alunos
 - Get
   - <a href="http://127.0.0.1:3000/alunos">/alunos</a>
-  - <a href="http://127.0.0.1:3000/alunos/id">/alunos/id</a>
+  - <a href="http://127.0.0.1:3000/alunos/1">/alunos/id</a>
 - Post
   - <a href="http://127.0.0.1:3000/login">/login</a>
   - <a href="http://127.0.0.1:3000/alunos">/alunos</a>
 - Put
-  - <a href="http://127.0.0.1:3000/alunos/id">/alunos/id</a>
+  - <a href="http://127.0.0.1:3000/alunos/1">/alunos/id</a>
 - Delete
-  - <a href="http://127.0.0.1:3000/alunos/id">/alunos/id</a>
+  - <a href="http://127.0.0.1:3000/alunos/1">/alunos/id</a>
   
 ### Assuntos
 - Get
   - <a href="http://127.0.0.1:3000/assuntos">/assuntos</a>
-  - <a href="http://127.0.0.1:3000/assuntos/id">/assuntos/id</a>
+  - <a href="http://127.0.0.1:3000/assuntos/1">/assuntos/id</a>
 - Post
   - <a href="http://127.0.0.1:3000/assuntos">/assuntos</a>
 - Put
-  - <a href="http://127.0.0.1:3000/assuntos/id">/assuntos/id</a>
+  - <a href="http://127.0.0.1:3000/assuntos/1">/assuntos/id</a>
 - Delete
-  - <a href="http://127.0.0.1:3000/assuntos/id">/assuntos/id</a>
+  - <a href="http://127.0.0.1:3000/assuntos/1">/assuntos/id</a>
   
 ### Encontros
 - Get
@@ -49,9 +49,9 @@ node index.js
 - Post
   - <a href="http://127.0.0.1:3000/encontros">/encontros</a>
 - Put
-  - <a href="http://127.0.0.1:3000/encontros/id">/encontros/id</a>
+  - <a href="http://127.0.0.1:3000/encontros/1">/encontros/id</a>
 - Delete
-  - <a href="http://127.0.0.1:3000/encontros/id">/encontros/id</a>
+  - <a href="http://127.0.0.1:3000/encontros/1">/encontros/id</a>
 
 #### As rotas de criação, atualização e remoção exigem que o usuário esteja logado utilizando autenticação JWT passado para login pelo parâmetro x-access-token
 ##### - Os dados de login se encontram no <a href="https://github.com/danilosheen/web2-atividade03/blob/main/.env">.env</a>
